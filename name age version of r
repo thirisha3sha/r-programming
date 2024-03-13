@@ -1,0 +1,18 @@
+#R program to take input from the user (name and age) and display the values. Also print the version of R installation.
+getuserinput<-function(){
+  cat("Enter your name:")
+  name<-readline()
+  cat("Enter your age:")
+  age<-as.integer(readline())
+  return(list(NAME=name,AGE=age))
+}
+print_user_info<-function(user_info){
+  cat("\nName: ",user_info$name,"\n")
+  cat("Age:",user_info$age,"\n")
+}
+main<-function(){
+  userinfo<-getuserinput()
+  print_user_info(userinfo)
+  cat("\n R version",R.version.string,"\n")
+}
+main()
