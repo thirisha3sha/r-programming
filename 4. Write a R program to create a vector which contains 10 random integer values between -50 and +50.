@@ -1,0 +1,3 @@
+a=-50:50
+b=sample(a,10)
+print(b)
