@@ -1,0 +1,5 @@
+a=readline("Enter your name")
+b=readline("Enter your age")
+cat("Entered Name is:",a)
+cat("Entered Age is:",b)
+R.Version()
