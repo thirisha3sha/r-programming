@@ -1,0 +1,17 @@
+a=1:20
+b=matrix(a,nrow=5,ncol=4,byrow=TRUE)
+colnames(b)=letters[1:4]
+rownames(b)=letters[5:9]
+print(b)
+
+h=1:9
+c=matrix(h,nrow=3,ncol=3,byrow=TRUE)
+colnames(c)=letters[1:3]
+rownames(c)=letters[4:6]
+print(c)
+
+g=1:4
+d=matrix(g,nrow=2,ncol=2,byrow=FALSE)
+colnames(d)=letters[1:2]
+rownames(d)=letters[3:4]
+print(d)
