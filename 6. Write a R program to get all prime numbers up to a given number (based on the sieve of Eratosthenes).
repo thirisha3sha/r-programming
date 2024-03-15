@@ -1,0 +1,18 @@
+a=as.integer(readline(prompt="Enter the range upto which you want the prime numbers"))
+cat("The prime numbers from 1 to",a)
+for(i in 1:a)
+{
+  for(j in 1:i)
+  {
+    b=i%%j
+    if(b==0)
+    {
+      c=c+1
+    }
+  }
+  if(c==2)
+  {
+    cat("\n ",i)
+  }
+  c=0
+}
