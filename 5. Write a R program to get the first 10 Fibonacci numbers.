@@ -1,0 +1,12 @@
+
+a=0
+b=1
+print("The first 10 Fibonacci numbers are:")
+for(i in seq(2,10))
+{
+  c=a+b
+  i=i+1
+  a=b
+  b=c
+  print(c)
+}
