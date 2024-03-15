@@ -1,0 +1,9 @@
+a=as.integer(readline(prompt="Enter the number"))
+print("The factors of the given number are:")
+for(i in 1:a)
+{
+  if((a%%i) == 0)
+  {
+    print(i)
+  }
+}
