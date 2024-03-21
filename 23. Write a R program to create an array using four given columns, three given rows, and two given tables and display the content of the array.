@@ -10,3 +10,6 @@ a <- array(data_values, dim = c(4, 3, 2), dimnames = list(
 
 # Display the content of the array
 print(a)
+#method 2
+array1 =  array(1:30, dim=c(3,5,2))
+print(array1)
