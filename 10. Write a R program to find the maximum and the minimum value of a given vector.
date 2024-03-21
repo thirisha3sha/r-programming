@@ -1,18 +1,5 @@
-a=c(2,1,5,9,6,4,3,7,8,10)
-max=a[1]
-min=a[1]
-b=length(a)
-for(i in 1:b)
-{
-  if(a[i]< min)
-  {
-    min=a[i]
-  }
-  else if(a[i] > max)
-  {
-    max=a[i]
-  }
-  i=i+1
-}
-cat("The minimum of the given vector is :",min)
-cat("\nThe maximum of the given vector is :",max)
+nums = c(10, 20, 30, 40, 50, 60)
+print('Original vector:')
+print(nums)   
+print(paste("Maximum value of the said vector:",max(nums)))
+print(paste("Minimum value of the said vector:",min(nums)))
